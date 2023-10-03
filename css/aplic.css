@@ -1,0 +1,18 @@
+center h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.font{
+    font-weight: bold;
+
+}
+.main{
+    margin-bottom: 50px;
+}
+.font i{
+    font-size: 50px;
+    color: rgb(23, 201, 141);
+}
+.foot{
+    padding-top: 20px;
+}

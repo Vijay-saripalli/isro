@@ -1,0 +1,124 @@
+.swiper{
+    width:80%;
+    height: fit-content;
+    overflow: hidden;
+}
+.swiper-slide img{
+    width:100%;
+}
+.swiper-wrapper{
+    height: 320px;
+}
+body{
+    background:white;
+}
+.bg-high{
+    height:280px;
+    overflow: hidden !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0 8px 15px 0px lightgray;
+    transition: all 1s ease-in-out;
+}
+
+.bg-high >figcaption>p{
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+    transform: translateY(-35px);
+    background: transparent;
+    font-weight: bolder;
+    font-size: 20px;
+    color:white;
+    text-shadow: 0px 5px 6px rgb(117, 116, 116);
+    transition: all 1s ease-in-out;
+}
+.bg-high:hover img{
+    transform: translateY(-25px);
+    transition: all 1s ease-in-out;
+}
+.bg-high:hover figcaption p{
+    background: rgb(63, 63, 63);
+    transition: all 1s ease-in-out;
+    color: white;
+    padding-bottom: 30px;
+    transform: translateY(-60px);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.bg-matr{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 560px;
+    background: rgb(203, 211, 214);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bg-matr i{
+    padding:35px;
+    border-radius: 50%;
+    border: 2px solid rgb(23, 141, 252);
+    color:rgb(25, 143, 253);
+    transition: all .3s cubic-bezier(0.95, 0.05, 0.795, 0.035) !important;
+}
+.bg-matr:hover i{
+    background:rgb(26, 142, 250) ;
+    color:rgb(203, 211, 214);
+}
+.bg-matr h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bg-matr p{
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.bg-matr .btn{
+    background:rgb(26, 142, 250) ;
+    color: rgb(203, 211, 214);
+}
+.bg-matr .btn:hover{
+    background-color: rgb(14, 97, 129);
+    color: white;
+}
+.bg-matr center h3 span{
+    color:black
+}
+.bg-matr:hover center h3 span{
+    color:rgb(26, 142, 250);
+}
+.img-bot{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.img-bot .a2{
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-bot .a2 center h3{
+    color: white;
+}
+.foot{
+	padding-top:15px;
+}

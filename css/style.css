@@ -1,0 +1,105 @@
+*{  
+    transition: all .3s cubic-bezier(0.4, 0, 1, 1) !important;
+    font-family: Roboto;
+}
+.icons>li>a{
+    color:#2c8ba5 !important;
+}
+.mg{
+    margin-top:10px;
+}
+:root{
+    --txt-orange:orange;
+}
+/* .nav>li>a:focus , */
+li{
+    border-radius: 2px;
+}
+ .nav>li:hover>a,
+ .nav>li>a:hover>i
+ {
+    text-decoration: none;
+    color:white;
+    border-radius: 2px;
+    background:rgb(21, 107, 219) ;
+}
+.nav h4 a:hover{
+    color:#108585;
+    text-decoration: none !important;
+}
+.text-warning{
+    color:var(--txt-orange);
+    text-decoration: none !important;
+}
+
+.bg-dark{
+    background: rgb(41, 39, 39);
+}
+.txt{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Copperplate Gothic Light;
+}
+.link,.head{
+    color:rgb(207, 204, 204);
+    font-size: 15px ;
+    margin:2px;
+}
+a[class='link']:hover,.link-h:hover{
+    text-decoration: none !important;
+    color: rgb(204, 104, 68);
+}
+.head{
+    color:yellow;
+}
+.head:hover{
+    text-decoration: none;
+    color: yellow;
+}
+.color ul li:hover{
+    background-color:transparent !important;
+}
+.color ul li a:hover{
+    background-color: transparent !important;
+}
+.color ul li a i{
+    font-size: 40px;
+}
+.lg-dark{
+    background: rgb(12, 12, 12);
+}
+.marq{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.marq a marquee span{
+    background: red;
+    color: white;
+}
+@media screen and(max-width:425px) {
+    
+}
+.active{
+    color:rgb(204, 104, 68);
+}
+.navbar-toggler{
+    display: none;
+}
+@media screen and (max-width:767px) {
+    #icons,.nav,.navbar-nav{
+        height: 60px;
+        display: flex  !important;
+        align-items: center;
+        flex-direction: row;
+    }
+    #txt{
+        text-align: center;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+}
+li:hover .ic,.ic:hover{
+    color:white !important;
+    background: transparent !important;
+}
